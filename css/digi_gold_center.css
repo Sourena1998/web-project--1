@@ -1,0 +1,66 @@
+.gold-center {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #01494b;
+  background-image: url(../images/gold-center-img/img-1.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  .gold-center-center {
+    width: 100%;
+    height: 207px;
+    margin: 0 290px;
+    padding-right: 20px;
+    .gold-center-center-text {
+      width: 410px;
+      height: 160px;
+      display: flex;
+      flex-flow: column wrap;
+      .gold-center-center-text-span-1 {
+        height: 69px;
+        font-family: var(--font-family);
+        text-align: justify;
+        font-weight: 800;
+        font-size: 33px;
+        color: #ffffff;
+        .gold-center-center-text-span-1-span {
+          color: #ffd08f;
+        }
+      }
+      .gold-center-center-text-span-2 {
+        height: 90px;
+        font-family: var(--font-family);
+        font-size: 12px;
+        color: #ffffff;
+        text-align: justify;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+    .gold-center-center-link {
+      width: 180px;
+      height: 40px;
+      border: 1px solid #ffffff;
+      background-color: #ffffff;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: var(--border-radius);
+      .gold-center-center-link-span {
+        height: 26px;
+        font-family: var(--font-family);
+        font-size: 14px;
+        color: #2b2b2b;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.digi-super-market-amazing {
+  width: 100%;
+  height: 115px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .digi-super-market-amazing-center {
+    width: 80%;
+    height: 100%;
+    background-image: url(../images/super-amazing-img/back-img.svg);
+    background-repeat: no-repeat;
+    background-color: #eceeee;
+    border-radius: 17px;
+    .digi-super-market-amazing-center-link {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      margin: 0 16px;
+      text-decoration: none;
+      .digi-super-market-amazing-center-link-right {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        .digi-super-market-amazing-center-link-right-right {
+          width: 66px;
+          height: 62px;
+        }
+        .digi-super-market-amazing-center-link-right-center {
+          width: 250px;
+          height: 28px;
+        }
+        .digi-super-market-amazing-center-link-right-left {
+          width: 84px;
+          height: 30px;
+          background-color: #029a49;
+          border-radius: 17px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          margin-right: 15px;
+          p {
+            font-family: var(--font-family);
+            font-size: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: whitesmoke;
+          }
+        }
+      }
+      .digi-super-market-amazing-center-link-left {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        .digi-super-market-amazing-center-link-left-right {
+          width: 492px;
+          height: 74px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          .digi-super-market-amazing-center-link-left-right-items {
+            width: 74px;
+            height: 74px;
+            background-color: white;
+            border-radius: 50%;
+            padding: 8px;
+            margin: 0px 0px 16px 8px;
+            display: flex;
+            flex-flow: row wrap;
+            img {
+              width: 58px;
+              height: 58px;
+              border-radius: 50%;
+            }
+            p {
+              width: 34px;
+              height: 20px;
+              font-family: var(--number-font-family);
+              font-size: 13px;
+              font-weight: bold;
+              background-color: #d32f2f;
+              text-align: center;
+              padding: 0 4px;
+              border-radius: 15px;
+              color: white;
+            }
+          }
+        }
+        .digi-super-market-amazing-center-link-left-left {
+          width: 144px;
+          height: 50px;
+          background-color: #ffffff;
+          border-radius: 25px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          padding: 12px 20px;
+          p {
+            font-family: var(--font-family);
+            font-size: 13px;
+            font-weight: bold;
+            color: #029a49;
+          }
+          .digi-super-market-amazing-center-link-left-left-svg {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

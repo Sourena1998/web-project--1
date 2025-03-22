@@ -1,0 +1,132 @@
+.digi-form {
+  width: 400px;
+  height: 480px;
+  position: absolute;
+  top: calc(50% - 400px / 2);
+  left: calc(50% - 480px / 2);
+  padding: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e0e0e3;
+  border-radius: var(--border-radius);
+  .digi-form-top {
+    width: 334px;
+    height: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .digi-form-top-link {
+      width: 100px;
+      height: 70px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .digi-form-bottom {
+    width: 334px;
+    height: 335px;
+    .digi-form-bottom-h1 {
+      width: 334px;
+      height: 40px;
+      color: #0c0c0c;
+      font-family: var(--font-family);
+      font-size: 16px;
+      margin-top: 16px;
+      text-align: right;
+      font-weight: 700;
+    }
+    .digi-form-bottom-p1 {
+      width: 334px;
+      height: 26px;
+      margin-top: 16px;
+      font-family: var(--font-family);
+      color: grey;
+      text-align: right;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .digi-form-bottom-p2 {
+      width: 334px;
+      height: 26px;
+      margin-bottom: 16px;
+      font-family: var(--font-family);
+      color: grey;
+      text-align: right;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    form {
+      width: 334px;
+      height: 154px;
+      display: block;
+      position: relative;
+    }
+
+    input[type="tel"] {
+      width: 334px;
+      height: 48px;
+      display: block;
+      outline: none;
+      padding: 0 8px;
+      border: 1px solid #e0e0e3;
+      border-radius: 5px;
+      position: relative;
+      top: 0;
+      &:invalid {
+        border: none;
+        outline: none;
+        border: 1px solid #b20028;
+      }
+      &:valid {
+        border: none;
+        outline: none;
+        border: 1px solid green;
+      }
+
+    }
+    input[type="submit"] {
+      width: 334px;
+      height: 48px;
+      background-color: #ef4056;
+      border: none;
+      color: whitesmoke;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: 300ms;
+      text-align: center;
+      font-family: var(--font-family);
+      font-size: 13px;
+      position: relative;
+      top: 20%;
+      &:active {
+        background-color: #b20028;
+      }
+    }
+    input[type="tel"]::placeholder {
+      font-family: var(--font-family);
+      text-align: right;
+    }
+    input[type="tel"]:focus::placeholder {
+      color: transparent;
+    }
+    .digi-form-bottom-p3 {
+      width: 334px;
+      height: 24px;
+      font-family: var(--font-family);
+      color: #3f4064;
+      margin-top: 16px;
+      font-size: 10px;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: #188ebe;
+      }
+    }
+  }
+}

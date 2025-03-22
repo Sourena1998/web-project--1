@@ -1,0 +1,148 @@
+.digi-chosen-sale {
+  width: 100%;
+  height: 800px;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .digi-chosen-sale-center {
+    width: 80%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    .digi-chosen-sale-center-top {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+      .digi-chosen-sale-center-top-items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        .digi-chosen-sale-center-top-items-img {
+          width: 24px;
+          height: 44px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .digi-chosen-sale-center-top-items-h3 {
+          height: 44px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          h3 {
+            font-family: var(--font-family);
+            font-size: 20px;
+            color: #1b100c;
+            text-align: center;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+    .digi-chosen-sale-center-bottom {
+      width: 100%;
+      height: 90%;
+      display: flex;
+      flex-flow: row wrap;
+      padding: 0 6px;
+      .digi-chosen-sale-center-bottom-items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        .digi-chosen-sale-center-bottom-items-link {
+          width: 16.6%;
+          height: 33%;
+          padding: 5px;
+          display: flex;
+          flex-flow: row wrap;
+          text-decoration: none;
+          align-items: center;
+          justify-content: center;
+          row-gap: 15px;
+          border: 1px solid #f0f0f1;
+          .digi-chosen-sale-center-bottom-items-link-img {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .digi-chosen-sale-center-bottom-items-link-sale {
+            width: 100%;
+            display: flex;
+            flex-flow: row-reverse wrap;
+            justify-content: space-between;
+            padding: 0 5px;
+            .digi-chosen-sale-center-bottom-items-link-sale-price {
+              display: flex;
+              flex-flow: row-reverse wrap;
+              align-items: center;
+              font-family: var(--number-font-family);
+              color: #2b2b2b;
+              font-weight: bold;
+              img {
+                width: 16px;
+                height: 16px;
+              }
+            }
+            .digi-chosen-sale-center-bottom-items-link-sale-discount {
+              padding: 1px 12px;
+              background-color: #da2f4e;
+              color: whitesmoke;
+              font-family: var(--number-font-family);
+              font-weight: bold;
+              font-size: 13px;
+              border-radius: 15px;
+            }
+          }
+          .digi-chosen-sale-center-bottom-items-link-real-price {
+            width: 100%;
+            font-family: var(--number-font-family);
+            color: rgb(156, 150, 150);
+            font-size: 16px;
+            text-decoration: line-through;
+            text-align: left;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.digi-chosen-sale-center-bottom-items-link-sale-price-padiing {
+  padding-bottom: 50px;
+}
+.digi-chosen-sale-center-bottom-items-link-no-border-top {
+  border-top: none !important;
+}
+.digi-chosen-sale-center-bottom-items-link-no-border-bottom {
+  border-bottom: none !important;
+}
+.digi-chosen-sale-center-bottom-items-link-no-border-right {
+  border-right: none !important;
+}
+.digi-chosen-sale-center-bottom-items-link-no-border-left {
+  border-left: none !important;
+}
+

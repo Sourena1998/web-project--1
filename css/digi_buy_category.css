@@ -1,0 +1,120 @@
+.digi-buy-category {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .digi-buy-category-center {
+    width: 80%;
+    height: 100%;
+    .digi-buy-category-center-top {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      h3 {
+        width: 100%;
+        height: 100%;
+        font-family: var(--font-family);
+        font-size: 20px;
+        padding: 0 500px;
+        margin-top: 40px;
+      }
+    }
+    .digi-buy-category-center-bottom {
+      height: 320px;
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .digi-buy-category-center-bottom-top {
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        .digi-buy-category-center-bottom-top-items {
+          width: 130px;
+          height: 134px;
+          padding: 0 10px;
+          .digi-buy-category-center-bottom-top-items-links {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            div {
+              width: 100px;
+              height: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                width: 100px;
+                height: 100px;
+              }
+            }
+            p {
+              width: 100%;
+              height: 34px;
+              font-family: var(--font-family);
+              font-size: 12px;
+              color: black;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .digi-buy-category-center-bottom-bottom {
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        .digi-buy-category-center-bottom-bottom-items {
+          width: 130px;
+          height: 134px;
+          padding: 0 10px;
+          .digi-buy-category-center-bottom-bottom-items-links {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            div {
+              width: 100px;
+              height: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                width: 100px;
+                height: 100px;
+              }
+            }
+            p {
+              width: 100%;
+              height: 34px;
+              font-family: var(--font-family);
+              font-size: 12px;
+              color: black;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

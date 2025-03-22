@@ -1,0 +1,63 @@
+.digi-story {
+  width: 100%;
+  height: 170px;
+  margin-top: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  .digi-story-center {
+    width: 80%;
+    height: 100%;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide-items {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 15px;
+          outline: 3px solid purple;
+          outline-offset: 3px;
+          cursor: pointer;
+        }
+        p {
+          width: 70%;
+          margin: 0 auto;
+          font-family: var(--font-family);
+          font-size: 11px;
+          line-height: 25px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          line-clamp: 2;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          color: #5b5b5b;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

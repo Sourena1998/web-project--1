@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: Yekan;
+  src: url(../fonts/fa/IRANYekanWeb-Medium.eot),
+    url(../fonts/fa/IRANYekanWeb-Medium.ttf),
+    url(../fonts/fa/IRANYekanWeb-Medium.woff),
+    url(../fonts/fa/IRANYekanWeb-Medium.woff2);
+}
+@font-face {
+  font-family: Nazanin;
+  src: url(../fonts/fa/BNazanin.eot), url(../fonts/fa/BNazanin.ttf),
+    url(../fonts/fa/BNazanin.woff), url(../fonts/fa/BNazanin.woff2);
+}
+:root {
+  --font-family: Yekan;
+  --number-font-family: Nazanin;
+  --border-radius: 7px;
+}
+.digi-wraper {
+  width: 100%;
+  overflow-x: clip;
+}
+
+.first-link-bars {
+  font-size: 14px !important;
+  color: black !important;
+}
+.change-scale {
+  transform: scale(0.8, 0.8);
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+.swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  transition: 300ms;
+}
+.swiper-pagination-bullet-active {
+  width: 16px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: white;
+}
+.bold-nav {
+  color: #3f4064 !important;
+  font-size: 13px !important;
+}
+.active {
+  display: flex !important;
+}
+.margin-top-20 {
+  margin-top: 20px !important;
+}
